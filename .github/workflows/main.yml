@@ -2,7 +2,7 @@ name: Metrics
 on:
   # Schedule updates (each hour)
   schedule: 
-    - cron: '* 1,13,21 * * *'
+    - cron: '0 6,12,22 * * *'
   push:
     branches:
       - "master"
